@@ -1,0 +1,4 @@
+.banner{
+    background-image: linear-gradient(to bottom right,white,rgb(183, 248, 239));
+    min-height: 100vh;
+}
