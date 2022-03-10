@@ -3,6 +3,7 @@ import "./app.css";
 import Banner from './components/banner';
 import NavBar from './components/navbar';
 import About from './components/about';
+import Achievements from './components/achievements';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       </div>
 
       < About />
+
+      < Achievements />
       
     </div>
   );
