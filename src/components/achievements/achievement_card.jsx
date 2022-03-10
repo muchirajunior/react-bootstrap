@@ -4,7 +4,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 function AchievementCard({header,icon,heading,img,subtitle1,subtitle2,subtitle3,btnText,btnType,shadow}) {
     return (
         <div className={`card m-3 border-0 col-sm p-4 ${shadow}`}>
-                <b className="test-primary">{header}</b>
+                <b className="text-primary">{header}</b>
                <h5> <b className="text-primary" style={{fontSize:"40px"}} >{icon}</b> <b className="text-dark " >{heading}</b></h5>
            
 

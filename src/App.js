@@ -4,6 +4,7 @@ import Banner from './components/banner';
 import NavBar from './components/navbar';
 import About from './components/about';
 import Achievements from './components/achievements';
+import Community from './components/community';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
       < About />
 
       < Achievements />
+
+      <div className="community">
+        < Community />
+      </div>
       
     </div>
   );

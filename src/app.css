@@ -1,4 +1,8 @@
 .banner{
-    background-image: linear-gradient(to bottom right,white,rgb(183, 248, 239));
+    background-image: linear-gradient(to bottom right,white,rgb(217, 255, 205));
     min-height: 100vh;
+}
+
+.community{
+    background-image: linear-gradient(to bottom, white, rgb(237, 252, 252));
 }
