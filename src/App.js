@@ -6,6 +6,7 @@ import About from './components/about';
 import Achievements from './components/achievements';
 import Community from './components/community';
 import Team from './components/team';
+import MobileApp from './components/mobile';
 
 function App() {
   return (
@@ -25,6 +26,13 @@ function App() {
       </div>
 
       < Team />
+
+      <div className="mobile">
+        < MobileApp />
+      </div>
+     
+
+
       
     </div>
   );
