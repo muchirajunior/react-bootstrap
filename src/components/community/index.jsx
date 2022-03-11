@@ -2,14 +2,20 @@ import React from 'react';
 import CommunityCard from './community_card';
 import {  MdForum, MdGroup, MdGroups, MdListAlt,  MdViewModule } from "react-icons/md";
 import { FaScroll } from "react-icons/fa";
+import SectionHeader from '../common/section_header';
 
 function Community(props) {
     return (
-        <div className="text-center" >
-            <b className="text-primary"> Our Community </b>
-            <h1><b>Community Main Feature</b></h1>
-            <p className="text-muted"> The wise man therefore always holds in this matters <br /> to this principle of selection </p>
-            <div className="container row m-5" >
+        <div className="col mt-4" >
+
+            < SectionHeader 
+                title="Our Community"
+                header="Community Main Feature"
+                text="The wise man therefore always holds in this matters"
+                ltext="to this principle of selection"
+            />
+
+            <div className="container mx-auto row  m-5" >
                 < CommunityCard 
                     iconBg="primary"
                     icon={< MdGroup />}
