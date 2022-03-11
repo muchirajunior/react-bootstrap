@@ -5,7 +5,7 @@ import AchievementCard from './achievement_card';
 
 function Achievements(props) {
     return (
-        <div  className="container row m-5"  >
+        <div  className="row mx-auto"  >
             < AchievementCard   
                 icon={< MdStarOutline />}
                 heading="4.8 Rating" 
