@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../common/section_header';
-import MemberCard from './assets/member_card';
+import MemberCard from './member_card';
 import image1 from "./assets/team1.jpg";
 import image2 from "./assets/team2.jpg"
 

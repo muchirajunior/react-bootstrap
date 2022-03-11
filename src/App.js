@@ -7,6 +7,7 @@ import Achievements from './components/achievements';
 import Community from './components/community';
 import Team from './components/team';
 import MobileApp from './components/mobile';
+import Blogs from './components/blog';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       <div className="mobile">
         < MobileApp />
       </div>
-     
+
+      < Blogs /> 
 
 
       
