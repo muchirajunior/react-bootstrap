@@ -15,8 +15,8 @@ function Banner(props) {
                     <button className="btn btn-outline-primary btn-lg m-4 pl-4 pr-4" >view More</button>
                 </div>
             </div>
-            <div className="col-sm-4">
-                <img src={image} className="h-75" alt="" />
+            <div className="col-sm-6">
+                <img src={image} className="image-fluid w-100" alt="" />
             </div>
             
         </div>
