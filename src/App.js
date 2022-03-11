@@ -8,13 +8,14 @@ import Community from './components/community';
 import Team from './components/team';
 import MobileApp from './components/mobile';
 import Blogs from './components/blog';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="">
       <div className="col h-100 banner" >
         < NavBar />
-      
+
         < Banner />
       </div>
 
@@ -32,10 +33,10 @@ function App() {
         < MobileApp />
       </div>
 
-      < Blogs /> 
+      < Blogs />
 
+      < Footer />
 
-      
     </div>
   );
 }
